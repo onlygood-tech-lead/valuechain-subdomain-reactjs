@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "23.1" # using latest version of node as of now
 
       - name: Verify Secrets
         run: |
