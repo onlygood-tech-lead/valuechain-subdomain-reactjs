@@ -1,4 +1,4 @@
-name: Deploy to cPanel
+name: Deploy to cPanel and Create Release
 
 on:
   push:
@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -31,6 +33,14 @@ jobs:
 
       - name: Build React App
         run: npm run build
+
+      - name: Install Semantic Release
+        run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
 
       - name: Upload to cPanel
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
