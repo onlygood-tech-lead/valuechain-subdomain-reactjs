@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/v1.0.0...v1.0.1) (2024-11-06)
+
+
+### Bug Fixes
+
+* added "bumpFiles" key in .versionrc.json file ([61c1c06](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/61c1c064cfde0dfad1289c19b742d6afa4d4e796))
+
 # 1.0.0 (2024-11-06)
 
 
