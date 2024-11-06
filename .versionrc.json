@@ -13,5 +13,12 @@
     { "type": "revert", "section": "Reverts" }
   ],
   "commitUrlFormat": "https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/{{hash}}",
-  "compareUrlFormat": "https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/{{previousTag}}...{{currentTag}}"
+  "compareUrlFormat": "https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/{{previousTag}}...{{currentTag}}",
+  "releaseCommitMessageFormat": "chore(release): {{currentTag}}",
+  "bumpFiles": [
+    {
+      "filename": "package.json",
+      "type": "json"
+    }
+  ]
 }
