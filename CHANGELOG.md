@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/v1.1.0...v1.1.1) (2024-11-08)
+
+
+### Bug Fixes
+
+* added social constant urls ([46ad02c](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/46ad02c9fb447de2e28e68f68631870601f736dc))
+* update main <meta> and <title> tags for SEO. need to add more here ([f8059e6](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/f8059e636a07444198350eabfee585a4b87b14c4))
+
 # [1.1.0](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/v1.0.1...v1.1.0) (2024-11-08)
 
 
