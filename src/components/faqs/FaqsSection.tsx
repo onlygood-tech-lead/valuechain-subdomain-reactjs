@@ -25,7 +25,10 @@ export default function FaqsSection() {
             </span>
             <ChevronDownIcon className="size-5 fill-gray/40 group-data-[hover]:fill-gray/40 group-data-[open]:rotate-180 flex-shrink-0" />
           </DisclosureButton>
-          <DisclosurePanel>
+          <DisclosurePanel
+            transition
+            className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0"
+          >
             <MarkdownRenderer
               content={answer}
               className="mt-2 text-sm/6 text-slate-700"
