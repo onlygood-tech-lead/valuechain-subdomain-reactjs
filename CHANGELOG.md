@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/v1.1.1...v1.2.0) (2024-11-08)
+
+
+### Bug Fixes
+
+* image file sizes in manifest.json ([3289644](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/3289644dde98fa9f7cac544b3eb9c7a6eafc2a27))
+* wrapped app <div> with ThemeContext for theme to be applied ([e49b368](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/e49b3680410f51a9e2295094805a3d43290e9200))
+
+
+### Features
+
+* added ThemeContext ([ccc12fd](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/ccc12fd720bd9523d8825bb6615df7c7f449428a))
+* added useLocalStorage custom hook ([f5167c8](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/f5167c8393c5ceb7a230a69849b6b4e41a0a48f4))
+
 ## [1.1.1](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/v1.1.0...v1.1.1) (2024-11-08)
 
 
