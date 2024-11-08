@@ -9,7 +9,7 @@ import MarkdownRenderer from "../markdown/MarkdownRenderer";
 
 export default function FaqsSection() {
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 px-4">
       <h5 className="text-3xl font-medium">Frequently asked questions</h5>
 
       {FaqsArray.map(({ question, answer }, index) => (
@@ -20,10 +20,10 @@ export default function FaqsSection() {
           defaultOpen={false}
         >
           <DisclosureButton className="group flex w-full items-center justify-between">
-            <span className="text-sm/2 font-medium text-slate-700 group-data-[hover]:text-slate-800">
+            <span className="text-sm/2 font-semibold text-slate-700 group-data-[hover]:text-slate-800 text-left">
               {question}
             </span>
-            <ChevronDownIcon className="size-5 fill-gray/40 group-data-[hover]:fill-gray/40 group-data-[open]:rotate-180" />
+            <ChevronDownIcon className="size-5 fill-gray/40 group-data-[hover]:fill-gray/40 group-data-[open]:rotate-180 flex-shrink-0" />
           </DisclosureButton>
           <DisclosurePanel>
             <MarkdownRenderer
