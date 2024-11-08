@@ -5,6 +5,22 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-primary: 59 130 246; /* Blue-500 */
+    --color-secondary: 249 115 22; /* Orange-500 */
+    --color-background: 255 255 255; /* White */
+    --color-text: 17 24 39; /* Gray-900 */
+    --color-text-muted: 107 114 128; /* Gray-500 */
+  }
+
+  .dark {
+    --color-primary: 96 165 250; /* Blue-400 */
+    --color-secondary: 251 146 60; /* Orange-400 */
+    --color-background: 17 24 39; /* Gray-900 */
+    --color-text: 243 244 246; /* Gray-100 */
+    --color-text-muted: 156 163 175; /* Gray-400 */
+  }
+
   html {
     font-family: "Nunito", system-ui, sans-serif;
   }
