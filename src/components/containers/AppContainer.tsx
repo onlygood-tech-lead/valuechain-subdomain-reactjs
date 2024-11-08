@@ -11,7 +11,7 @@ export default function AppContainer({
   className,
 }: AppContainerProps) {
   return (
-    <div className={cn("bg-white", className)}>
+    <div className={cn("bg-background", className)}>
       <div className="relative px-6 pt-4 lg:px-8">
         <div className="mx-auto max-w-5xl py-8 sm:py-16 lg:py-32">
           {children}

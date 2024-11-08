@@ -10,11 +10,11 @@ import MarkdownRenderer from "../markdown/MarkdownRenderer";
 export default function FaqsSection() {
   return (
     <div className="space-y-2 px-2 sm:px-4">
-      <h5 className="text-2xl sm:text-4xl font-medium">
+      <h5 className="text-2xl sm:text-4xl font-medium text-text">
         Frequently asked questions
       </h5>
 
-      <div className="w-full divide-y divide-dashed">
+      <div className="w-full divide-y divide-dashed divide-text-muted">
         {FaqsArray.map(({ question, answer }, index) => (
           <Disclosure
             as="div"
@@ -23,10 +23,10 @@ export default function FaqsSection() {
             defaultOpen={false}
           >
             <DisclosureButton className="group flex w-full items-center justify-between">
-              <span className="text-base sm:text-lg font-semibold text-slate-800 group-data-[hover]:text-slate-800 text-left">
+              <span className="text-base sm:text-lg font-semibold text-text group-data-[hover]:text-opacity-80 text-left">
                 {question}
               </span>
-              <ChevronDownIcon className="size-5 fill-gray/40 group-data-[hover]:fill-gray/40 group-data-[open]:rotate-180 flex-shrink-0 transition-transform" />
+              <ChevronDownIcon className="size-5 fill-text-muted group-data-[hover]:fill-text-muted/90 group-data-[open]:rotate-180 flex-shrink-0 transition-transform" />
             </DisclosureButton>
             <DisclosurePanel
               transition
@@ -34,7 +34,7 @@ export default function FaqsSection() {
             >
               <MarkdownRenderer
                 content={answer}
-                className="mt-2 text-sm sm:text-base text-slate-500"
+                className="mt-2 text-sm sm:text-base text-text-muted"
               />
             </DisclosurePanel>
           </Disclosure>
