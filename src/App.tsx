@@ -1,9 +1,10 @@
-function App() {
+import AppContainer from "./components/containers/AppContainer";
+import FaqsSection from "./components/faqs/FaqsSection";
+
+export default function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <AppContainer>
+      <FaqsSection />
+    </AppContainer>
   );
 }
-
-export default App;
