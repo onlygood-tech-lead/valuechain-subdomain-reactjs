@@ -5,6 +5,7 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from "@headlessui/react";
+import MarkdownRenderer from "../markdown/MarkdownRenderer";
 
 export default function FaqsSection() {
   return (
@@ -24,8 +25,11 @@ export default function FaqsSection() {
             </span>
             <ChevronDownIcon className="size-5 fill-gray/40 group-data-[hover]:fill-gray/40 group-data-[open]:rotate-180" />
           </DisclosureButton>
-          <DisclosurePanel className="mt-2 text-sm/6 text-slate-600">
-            <span>{answer}</span>
+          <DisclosurePanel>
+            <MarkdownRenderer
+              content={answer}
+              className="mt-2 text-sm/6 text-slate-700"
+            />
           </DisclosurePanel>
         </Disclosure>
       ))}
