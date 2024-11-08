@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/v1.0.1...v1.1.0) (2024-11-08)
+
+
+### Bug Fixes
+
+* added 'jsx-a11y/anchor-has-content': 'off' in eslint.config ([9da7e4b](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/9da7e4b5b782245ab7bd26bf7c3a7f8b578f03f1))
+
+
+### Features
+
+* added AppContainer component ([ebdc354](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/ebdc35435153ba4ecfc894cdbcf6021cedd94470))
+* created basic FAQs section with constants and component ([81e97dd](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/81e97dda983c7bf4344fda50887b670bf44608d7))
+* created MarkdownRenderer component to render markdown using react-markdown ([ba07082](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/commit/ba07082e3ca8aaaf6039e6a2865535a48d0d5cc1))
+
 ## [1.0.1](https://github.com/onlygood-tech-lead/valuechain-subdomain-reactjs/compare/v1.0.0...v1.0.1) (2024-11-06)
 
 
